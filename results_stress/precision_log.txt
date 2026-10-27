@@ -1,0 +1,4 @@
+S-b12 0 windows 1 MP agree 9.122947578921574e-16 accepted True seconds 1.506085166009143
+S-b12 1 windows 1 MP agree 9.268155032930158e-16 accepted True seconds 1.5868025830131955
+S-b14 0 windows 1 MP agree 9.814815835199506e-16 accepted True seconds 1.9086794579925481
+S-b14 1 windows 1 MP agree 1.0690927066812414e-15 accepted True seconds 1.6422265419969335

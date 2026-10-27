@@ -1,0 +1,12 @@
+S-b10/0 reference agreement 1.15e-09 accepted True
+S-b10/1 reference agreement 5.67e-11 accepted True
+S-b12/0 reference agreement 2.41e-09 accepted False
+S-b12/1 reference agreement 9.37e-10 accepted False
+S-b14/0 reference agreement 1.24e-08 accepted False
+S-b14/1 reference agreement 1.29e-08 accepted False
+S-coupled8/0 reference agreement 1.4e-10 accepted True
+S-coupled8/1 reference agreement 2.5e-10 accepted True
+S-offset10/0 reference agreement 3.64e-10 accepted True
+S-offset10/1 reference agreement 9.67e-10 accepted True
+S-threshold/0 reference agreement 1.59e-10 accepted True
+S-threshold/1 reference agreement 2.6e-10 accepted True
