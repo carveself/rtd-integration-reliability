@@ -1,0 +1,257 @@
+[
+  {
+    "id": "N-broad",
+    "kind": "double",
+    "barrier_nm": 2.5,
+    "well_nm": 4.6,
+    "bias": 0.11,
+    "temperature": 320,
+    "sample": 0,
+    "height_eV": 0.27872761049846795
+  },
+  {
+    "id": "N-broad",
+    "kind": "double",
+    "barrier_nm": 2.5,
+    "well_nm": 4.6,
+    "bias": 0.11,
+    "temperature": 320,
+    "sample": 1,
+    "height_eV": 0.28169640181499145
+  },
+  {
+    "id": "N-broad",
+    "kind": "double",
+    "barrier_nm": 2.5,
+    "well_nm": 4.6,
+    "bias": 0.11,
+    "temperature": 320,
+    "sample": 2,
+    "height_eV": 0.28129253160429846
+  },
+  {
+    "id": "N-medium",
+    "kind": "double",
+    "barrier_nm": 5.5,
+    "well_nm": 5.8,
+    "bias": 0.085,
+    "temperature": 175,
+    "sample": 0,
+    "height_eV": 0.28083799571053447
+  },
+  {
+    "id": "N-medium",
+    "kind": "double",
+    "barrier_nm": 5.5,
+    "well_nm": 5.8,
+    "bias": 0.085,
+    "temperature": 175,
+    "sample": 1,
+    "height_eV": 0.2794074748047745
+  },
+  {
+    "id": "N-medium",
+    "kind": "double",
+    "barrier_nm": 5.5,
+    "well_nm": 5.8,
+    "bias": 0.085,
+    "temperature": 175,
+    "sample": 2,
+    "height_eV": 0.27771755500562095
+  },
+  {
+    "id": "N-narrow",
+    "kind": "double",
+    "barrier_nm": 7.5,
+    "well_nm": 5.1,
+    "bias": 0.055,
+    "temperature": 90,
+    "sample": 0,
+    "height_eV": 0.27915004065345644
+  },
+  {
+    "id": "N-narrow",
+    "kind": "double",
+    "barrier_nm": 7.5,
+    "well_nm": 5.1,
+    "bias": 0.055,
+    "temperature": 90,
+    "sample": 1,
+    "height_eV": 0.28036485534384015
+  },
+  {
+    "id": "N-narrow",
+    "kind": "double",
+    "barrier_nm": 7.5,
+    "well_nm": 5.1,
+    "bias": 0.055,
+    "temperature": 90,
+    "sample": 2,
+    "height_eV": 0.28161117784331435
+  },
+  {
+    "id": "N-ultranarrow",
+    "kind": "double",
+    "barrier_nm": 13.5,
+    "well_nm": 5.7,
+    "bias": 0.045,
+    "temperature": 105,
+    "sample": 0,
+    "height_eV": 0.27947122258667767
+  },
+  {
+    "id": "N-ultranarrow",
+    "kind": "double",
+    "barrier_nm": 13.5,
+    "well_nm": 5.7,
+    "bias": 0.045,
+    "temperature": 105,
+    "sample": 1,
+    "height_eV": 0.2794842252285965
+  },
+  {
+    "id": "N-ultranarrow",
+    "kind": "double",
+    "barrier_nm": 13.5,
+    "well_nm": 5.7,
+    "bias": 0.045,
+    "temperature": 105,
+    "sample": 2,
+    "height_eV": 0.27996280875274865
+  },
+  {
+    "id": "N-offset",
+    "kind": "double",
+    "barrier_nm": 8.5,
+    "well_nm": 6.4,
+    "well_offset_eV": 0.018,
+    "bias": 0.075,
+    "temperature": 140,
+    "sample": 0,
+    "height_eV": 0.27949925070877535
+  },
+  {
+    "id": "N-offset",
+    "kind": "double",
+    "barrier_nm": 8.5,
+    "well_nm": 6.4,
+    "well_offset_eV": 0.018,
+    "bias": 0.075,
+    "temperature": 140,
+    "sample": 1,
+    "height_eV": 0.2797421608186819
+  },
+  {
+    "id": "N-offset",
+    "kind": "double",
+    "barrier_nm": 8.5,
+    "well_nm": 6.4,
+    "well_offset_eV": 0.018,
+    "bias": 0.075,
+    "temperature": 140,
+    "sample": 2,
+    "height_eV": 0.2786561535735469
+  },
+  {
+    "id": "N-asymmetric",
+    "kind": "double",
+    "barrier_nm": 5.0,
+    "right_barrier_nm": 9.0,
+    "well_nm": 5.4,
+    "bias": 0.065,
+    "temperature": 220,
+    "sample": 0,
+    "height_eV": 0.28115574261204795
+  },
+  {
+    "id": "N-asymmetric",
+    "kind": "double",
+    "barrier_nm": 5.0,
+    "right_barrier_nm": 9.0,
+    "well_nm": 5.4,
+    "bias": 0.065,
+    "temperature": 220,
+    "sample": 1,
+    "height_eV": 0.2805700102639825
+  },
+  {
+    "id": "N-asymmetric",
+    "kind": "double",
+    "barrier_nm": 5.0,
+    "right_barrier_nm": 9.0,
+    "well_nm": 5.4,
+    "bias": 0.065,
+    "temperature": 220,
+    "sample": 2,
+    "height_eV": 0.28158105379986115
+  },
+  {
+    "id": "N-coupled",
+    "kind": "triple",
+    "barrier_nm": 5.0,
+    "well_nm": 5.6,
+    "second_well_nm": 6.4,
+    "bias": 0.095,
+    "temperature": 160,
+    "sample": 0,
+    "height_eV": 0.2796982655031562
+  },
+  {
+    "id": "N-coupled",
+    "kind": "triple",
+    "barrier_nm": 5.0,
+    "well_nm": 5.6,
+    "second_well_nm": 6.4,
+    "bias": 0.095,
+    "temperature": 160,
+    "sample": 1,
+    "height_eV": 0.2806194442217686
+  },
+  {
+    "id": "N-coupled",
+    "kind": "triple",
+    "barrier_nm": 5.0,
+    "well_nm": 5.6,
+    "second_well_nm": 6.4,
+    "bias": 0.095,
+    "temperature": 160,
+    "sample": 2,
+    "height_eV": 0.281298114453936
+  },
+  {
+    "id": "N-doublet",
+    "kind": "triple",
+    "barrier_nm": 7.0,
+    "well_nm": 6.0,
+    "second_well_nm": 6.1,
+    "well_offset_eV": 0.006,
+    "bias": 0.025,
+    "temperature": 85,
+    "sample": 0,
+    "height_eV": 0.28036127326071764
+  },
+  {
+    "id": "N-doublet",
+    "kind": "triple",
+    "barrier_nm": 7.0,
+    "well_nm": 6.0,
+    "second_well_nm": 6.1,
+    "well_offset_eV": 0.006,
+    "bias": 0.025,
+    "temperature": 85,
+    "sample": 1,
+    "height_eV": 0.2786455272317284
+  },
+  {
+    "id": "N-doublet",
+    "kind": "triple",
+    "barrier_nm": 7.0,
+    "well_nm": 6.0,
+    "second_well_nm": 6.1,
+    "well_offset_eV": 0.006,
+    "bias": 0.025,
+    "temperature": 85,
+    "sample": 2,
+    "height_eV": 0.27804693634908606
+  }
+]

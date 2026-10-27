@@ -1,0 +1,35 @@
+N-broad 0 reference True selective seeds 0
+N-broad 1 reference True selective seeds 0
+N-broad 2 reference True selective seeds 0
+N-medium 0 reference True selective seeds 1
+N-medium 1 reference True selective seeds 1
+N-medium 2 reference True selective seeds 1
+N-narrow 0 reference True selective seeds 1
+N-narrow 1 reference True selective seeds 1
+N-narrow 2 reference True selective seeds 1
+N-ultranarrow 0 reference True selective seeds 2
+N-ultranarrow 1 reference True selective seeds 2
+N-ultranarrow 2 reference True selective seeds 2
+N-offset 0 reference True selective seeds 2
+N-offset 1 reference True selective seeds 2
+N-offset 2 reference True selective seeds 2
+N-asymmetric 0 reference True selective seeds 0
+N-asymmetric 1 reference True selective seeds 0
+N-asymmetric 2 reference True selective seeds 0
+N-coupled 0 reference True selective seeds 1
+N-coupled 1 reference True selective seeds 1
+N-coupled 2 reference True selective seeds 1
+N-doublet 0 reference True selective seeds 4
+N-doublet 1 reference True selective seeds 4
+N-doublet 2 reference True selective seeds 4
+legacy D-wide
+legacy D-narrow
+legacy H-cool
+legacy H-sharp
+legacy H-two-well
+legacy H-hot
+legacy C-two-well
+legacy D-design
+legacy H-design-cool
+legacy H-design-two-well
+legacy C-design-sharp

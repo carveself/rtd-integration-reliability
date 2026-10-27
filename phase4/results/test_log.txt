@@ -1,0 +1,11 @@
+test_counts_all_discarded_coarse_work (__main__.SelectionTests.test_counts_all_discarded_coarse_work) ... ok
+test_cumulative_discard_budget (__main__.SelectionTests.test_cumulative_discard_budget) ... ok
+test_higher_budget_never_retains_more (__main__.SelectionTests.test_higher_budget_never_retains_more) ... ok
+test_invalid_area_rejected (__main__.SelectionTests.test_invalid_area_rejected) ... ok
+test_no_narrow_modes (__main__.SelectionTests.test_no_narrow_modes) ... ok
+test_physical_current_agrees_with_strict_reference (__main__.SelectionTests.test_physical_current_agrees_with_strict_reference) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.102s
+
+OK

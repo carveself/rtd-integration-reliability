@@ -1,0 +1,13 @@
+{
+  "phase4/protocol.json": "03a1bcc72eb7a4d4450cda514d694b732e5e2b22c46dfa64166e3ade82adda6e",
+  "phase4/run_phase4.py": "3900d4e2e473bb46868f31b589281eed7517807afc52e6ccff87ac09afa82015",
+  "phase4/src/selective.py": "8e2713e0262a330162e8b1889d5563617d1fdc3eac67fa88fd670f12f743a2b8",
+  "src/config.py": "f6e52bcf3f41067c12f0df41365ecdc5dfc87ac57b36baa4a3f5bba66217db72",
+  "src/highprecision.py": "88ff7fb51dbf6f6f853dac004418b1cc62363a385faa81707bd0bfe96c1c4897",
+  "src/integration.py": "4597fa02b4503c92f853081752a964b6584b897cdb737464f8fe48e11c07b42c",
+  "src/models.py": "213b54c8ec52a8b12f11cf5410451b7cc83dd3f1d604989c1696ea77301ef48b",
+  "src/resonance.py": "8180f62952fc3ac3d76378b13ce86f3a8e533ac5cb489d560aade2ffb5bd50d3",
+  "src/seeded.py": "8d6195575a353acc35a5a6c84df5b659398df6701faad53e6b1ba80670d8355d",
+  "vendor/negf.py": "381199226386cd20222a18be6fe1bb24235e3b3a077753f78a4b20bc1d241730",
+  "vendor/reference.py": "a7271b93a123cf744c181367ca9ec3f7f762f1fbcee00ba51a96eb6ada1f7e32"
+}

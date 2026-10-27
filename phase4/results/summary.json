@@ -1,0 +1,121 @@
+{
+  "fresh": {
+    "uniform": {
+      "cases": 24,
+      "accepted_reference": 24,
+      "passed": 24,
+      "undercovered": 0,
+      "maximum_relative_error": 2.2453442600904403e-05,
+      "energy_evaluations": 69240,
+      "sum_case_median_seconds": 0.37489524905686267,
+      "energy_ratio_to_uniform": 1.0,
+      "energy_ratio_to_spectral": 0.6878874582737243
+    },
+    "spectral": {
+      "cases": 24,
+      "accepted_reference": 24,
+      "passed": 24,
+      "undercovered": 0,
+      "maximum_relative_error": 9.019213086015431e-07,
+      "energy_evaluations": 100656,
+      "sum_case_median_seconds": 0.32641150103881955,
+      "energy_ratio_to_uniform": 1.4537261698440207,
+      "energy_ratio_to_spectral": 1.0
+    },
+    "pole": {
+      "cases": 24,
+      "accepted_reference": 24,
+      "passed": 24,
+      "undercovered": 0,
+      "maximum_relative_error": 8.767991649786617e-08,
+      "energy_evaluations": 109416,
+      "sum_case_median_seconds": 0.33636070700595155,
+      "energy_ratio_to_uniform": 1.5802426343154246,
+      "energy_ratio_to_spectral": 1.0870290891750118
+    },
+    "selective": {
+      "cases": 24,
+      "accepted_reference": 24,
+      "passed": 24,
+      "undercovered": 0,
+      "maximum_relative_error": 2.2453442600904403e-05,
+      "energy_evaluations": 60714,
+      "sum_case_median_seconds": 0.24715212598675862,
+      "energy_ratio_to_uniform": 0.8768630849220104,
+      "energy_ratio_to_spectral": 0.6031831187410587
+    }
+  },
+  "legacy": {
+    "uniform": {
+      "tasks": 11,
+      "passed": 11,
+      "undercovered": 5,
+      "energy_evaluations": 713376,
+      "single_run_seconds": 1.8707657079503406,
+      "energy_ratio_to_uniform": 1.0,
+      "energy_ratio_to_spectral": 0.5227576503693282
+    },
+    "spectral": {
+      "tasks": 11,
+      "passed": 11,
+      "undercovered": 0,
+      "energy_evaluations": 1364640,
+      "single_run_seconds": 2.9744978320377413,
+      "energy_ratio_to_uniform": 1.9129323105907683,
+      "energy_ratio_to_spectral": 1.0
+    },
+    "pole": {
+      "tasks": 11,
+      "passed": 11,
+      "undercovered": 0,
+      "energy_evaluations": 1447656,
+      "single_run_seconds": 3.1804117479769047,
+      "energy_ratio_to_uniform": 2.0293029201991657,
+      "energy_ratio_to_spectral": 1.0608336264509322
+    },
+    "selective": {
+      "tasks": 11,
+      "passed": 11,
+      "undercovered": 3,
+      "energy_evaluations": 764248,
+      "single_run_seconds": 2.043693497980712,
+      "energy_ratio_to_uniform": 1.0713116224823935,
+      "energy_ratio_to_spectral": 0.5600363465822488
+    }
+  },
+  "selection": {
+    "eigen_seeds": 162,
+    "retained_seeds": 33,
+    "coarse_evaluations": 3018
+  },
+  "selective_regression_failures": [
+    {
+      "id": "H-two-well",
+      "method": "selective",
+      "item": "1",
+      "J_A_m2": "573480555.1976497",
+      "actual_error_A_m2": "246022.3247923851",
+      "estimated_error_A_m2": "14700.680327561417",
+      "actual_to_estimate_ratio": 16.735438041675714
+    },
+    {
+      "id": "D-design",
+      "method": "selective",
+      "item": "7",
+      "J_A_m2": "343607170.2711994",
+      "actual_error_A_m2": "14210133.021228671",
+      "estimated_error_A_m2": "4755174.686615399",
+      "actual_to_estimate_ratio": 2.988351418766289
+    },
+    {
+      "id": "H-design-two-well",
+      "method": "selective",
+      "item": "15",
+      "J_A_m2": "690075015.804814",
+      "actual_error_A_m2": "6895607.478627324",
+      "estimated_error_A_m2": "2863213.8017291715",
+      "actual_to_estimate_ratio": 2.40834529173577
+    }
+  ],
+  "verdict": "Selective method saves evaluations but does not preserve estimator coverage on old cases. Experimental, not a reliable default or publication-ready new method."
+}
