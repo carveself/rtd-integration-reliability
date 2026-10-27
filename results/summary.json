@@ -1,0 +1,108 @@
+{
+  "main_24": {
+    "uniform": {
+      "cases": 24,
+      "accepted_references": 24,
+      "passed_on_accepted": 24,
+      "covered_on_accepted": 24,
+      "max_relative_error": 9.996182064308166e-06,
+      "maximum_error_to_indicator": 0.04457872342210287,
+      "energy_evaluations": 59712,
+      "sum_per_case_median_seconds": 0.23183541695470922,
+      "pole_residual_calls": 0,
+      "sum_first_run_setup_seconds": 0.0
+    },
+    "spectral": {
+      "cases": 24,
+      "accepted_references": 24,
+      "passed_on_accepted": 24,
+      "covered_on_accepted": 24,
+      "max_relative_error": 3.1283983026307477e-06,
+      "maximum_error_to_indicator": 0.07913108718770773,
+      "energy_evaluations": 89592,
+      "sum_per_case_median_seconds": 0.2066684138844721,
+      "pole_residual_calls": 0,
+      "sum_first_run_setup_seconds": 0.014925084018614143
+    },
+    "pole": {
+      "cases": 24,
+      "accepted_references": 24,
+      "passed_on_accepted": 24,
+      "covered_on_accepted": 24,
+      "max_relative_error": 3.019597235383931e-08,
+      "maximum_error_to_indicator": 0.11368603147352294,
+      "energy_evaluations": 100128,
+      "sum_per_case_median_seconds": 0.23810170689830557,
+      "pole_residual_calls": 610,
+      "sum_first_run_setup_seconds": 0.036948748980648816
+    }
+  },
+  "adversarial_12_posthoc": {
+    "uniform": {
+      "cases": 12,
+      "accepted_references": 12,
+      "passed_on_accepted": 12,
+      "covered_on_accepted": 12,
+      "max_relative_error": 6.672207703477594e-07,
+      "maximum_error_to_indicator": 0.023076985978377505,
+      "energy_evaluations": 42816,
+      "sum_per_case_median_seconds": 0.27395587699720636,
+      "pole_residual_calls": 0,
+      "sum_first_run_setup_seconds": 0.0
+    },
+    "spectral": {
+      "cases": 12,
+      "accepted_references": 12,
+      "passed_on_accepted": 12,
+      "covered_on_accepted": 12,
+      "max_relative_error": 2.144399801589749e-07,
+      "maximum_error_to_indicator": 0.010850795746686598,
+      "energy_evaluations": 46656,
+      "sum_per_case_median_seconds": 0.1580638749874197,
+      "pole_residual_calls": 0,
+      "sum_first_run_setup_seconds": 0.010415083030238748
+    },
+    "pole": {
+      "cases": 12,
+      "accepted_references": 12,
+      "passed_on_accepted": 12,
+      "covered_on_accepted": 12,
+      "max_relative_error": 5.7815996536418546e-08,
+      "maximum_error_to_indicator": 0.10984264719923054,
+      "energy_evaluations": 50880,
+      "sum_per_case_median_seconds": 0.1544221649528481,
+      "pole_residual_calls": 347,
+      "sum_first_run_setup_seconds": 0.026034042093669996
+    }
+  },
+  "legacy_308_posthoc": {
+    "uniform": {
+      "tasks": 11,
+      "passed": 11,
+      "items": 308,
+      "undercovered_items": 5,
+      "energy_evaluations": 713376,
+      "single_run_seconds": 1.6323439589468762,
+      "maximum_error_to_indicator": 16.735438041675714
+    },
+    "spectral": {
+      "tasks": 11,
+      "passed": 11,
+      "items": 308,
+      "undercovered_items": 0,
+      "energy_evaluations": 1364640,
+      "single_run_seconds": 2.5050277060072403,
+      "maximum_error_to_indicator": 0.07896400944318051
+    },
+    "pole": {
+      "tasks": 11,
+      "passed": 11,
+      "items": 308,
+      "undercovered_items": 0,
+      "energy_evaluations": 1447656,
+      "single_run_seconds": 2.7332424149790313,
+      "maximum_error_to_indicator": 0.07908449990390708
+    }
+  },
+  "claim": "empirical benchmark; no rigorous error bound, no novelty or publication claim"
+}

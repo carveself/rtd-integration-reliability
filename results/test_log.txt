@@ -1,0 +1,16 @@
+test_arbitrary_precision_free_chain_conservation (__main__.Physics.test_arbitrary_precision_free_chain_conservation) ... ok
+test_boundary_pencil_independent_residual (__main__.Physics.test_boundary_pencil_independent_residual) ... ok
+test_continuation_matches_retarded_real_axis (__main__.Physics.test_continuation_matches_retarded_real_axis) ... ok
+test_discrete_solvers_match_narrow_resonance (__main__.Physics.test_discrete_solvers_match_narrow_resonance) ... ok
+test_extremely_narrow_spike_exposes_blind_indicator (__main__.Physics.test_extremely_narrow_spike_exposes_blind_indicator) ... ok
+test_layer_geometry_and_asymmetric_offset (__main__.Physics.test_layer_geometry_and_asymmetric_offset) ... ok
+test_mp_local_quadrature_against_analytic_spike (__main__.Physics.test_mp_local_quadrature_against_analytic_spike) ... ok
+test_no_resonance_guidance_free_chain (__main__.Physics.test_no_resonance_guidance_free_chain) ... ok
+test_partition_covers_once_and_excludes_outside (__main__.Physics.test_partition_covers_once_and_excludes_outside) ... ok
+test_pole_center_and_linewidth_from_separate_solver (__main__.Physics.test_pole_center_and_linewidth_from_separate_solver) ... ok
+test_reject_spectral_contact_cut (__main__.Physics.test_reject_spectral_contact_cut) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.027s
+
+OK
