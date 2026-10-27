@@ -1,0 +1,10 @@
+Local development commits before final public-package manifest commit. GitHub browser-upload commits are grouped separately.
+
+2a1ac4f Report selective-guidance savings and unresolved regression failures; prepare public research package
+ebcf9fc Record fresh-reference auditing and identical-budget regression runner before outcomes
+d307800 Implement cumulative supply-aware spectral selection with complete coarse-work accounting
+6e29540 Freeze phase-four selective spectral integration protocol and fresh validation cases
+03c4f5e Package reproducible phase-three evidence with integrity manifest
+0303de3 Audit narrow-resonance references and legacy regressions; document cost limits and advisor revision
+1ae8ab4 Implement spectral and pole guided quadrature with physical checks; freeze adversarial extension
+4d35ffe Freeze phase-three narrow-resonance validation protocol and transport kernel

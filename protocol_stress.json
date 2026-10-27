@@ -1,0 +1,87 @@
+{
+  "phase": "3-stress-extension",
+  "status": "post-main-validation adversarial extension, frozen before these outcomes; no method retuning",
+  "seed": 20261028,
+  "draws_per_context": 2,
+  "height_sigma_eV": 0.001,
+  "spacing_nm": 0.1,
+  "rtol": 0.001,
+  "absolute_floor_A_m2": 1e-06,
+  "initial_panel_eV": 0.008,
+  "fixed_seed_scale_eV": 1e-05,
+  "pole_offsets_in_widths": [
+    0.25,
+    1,
+    4,
+    16,
+    64,
+    256,
+    1024
+  ],
+  "error_safety": 2.0,
+  "timing_repetitions": 3,
+  "reference_panel_eV": [
+    0.00025,
+    0.000125
+  ],
+  "reference_rtol": 1e-08,
+  "reference_accept_relative_agreement": 1e-06,
+  "contexts": [
+    {
+      "id": "S-b10",
+      "kind": "double",
+      "barrier_nm": 10.0,
+      "well_nm": 5.1,
+      "bias": 0.04,
+      "temperature": 100
+    },
+    {
+      "id": "S-b12",
+      "kind": "double",
+      "barrier_nm": 12.0,
+      "well_nm": 5.3,
+      "bias": 0.04,
+      "temperature": 100
+    },
+    {
+      "id": "S-b14",
+      "kind": "double",
+      "barrier_nm": 14.0,
+      "well_nm": 5.5,
+      "bias": 0.04,
+      "temperature": 100
+    },
+    {
+      "id": "S-coupled8",
+      "kind": "triple",
+      "barrier_nm": 8.0,
+      "well_nm": 5.8,
+      "second_well_nm": 5.9,
+      "bias": 0.03,
+      "temperature": 77
+    },
+    {
+      "id": "S-offset10",
+      "kind": "double",
+      "barrier_nm": 10.0,
+      "well_nm": 6.1,
+      "well_offset_eV": 0.025,
+      "bias": 0.06,
+      "temperature": 120
+    },
+    {
+      "id": "S-threshold",
+      "kind": "double",
+      "barrier_nm": 10.0,
+      "well_nm": 6.0,
+      "bias": 0.135,
+      "temperature": 150
+    }
+  ],
+  "decision_rules": {
+    "accuracy": "compare every current to audited references; reject reference disagreements, do not quietly discard failures",
+    "indicator": "empirical paired Gauss error plus analytic high energy tail; no certified bound",
+    "cost": "count every real-energy transport evaluation, every pole residual, eigen solve and end-to-end wall time including discovery; no hidden free spectral setup",
+    "claim": "no CV, manufacturing yield, global optimum, realistic-device accuracy or publication novelty claim from these 24 deterministic stress cases"
+  }
+}
