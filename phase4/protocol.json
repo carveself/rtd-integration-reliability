@@ -1,0 +1,107 @@
+{
+  "phase": 4,
+  "seed": 20261029,
+  "draws_per_context": 3,
+  "height_sigma_eV": 0.001,
+  "status": "local protocol frozen before phase4 outcomes; no public preregistration",
+  "rtol": 0.001,
+  "absolute_floor_A_m2": 1e-06,
+  "initial_panel_eV": 0.008,
+  "error_safety": 2.0,
+  "fixed_seed_scale_eV": 1e-05,
+  "pole_offsets_in_widths": [
+    0.25,
+    1,
+    4,
+    16,
+    64,
+    256,
+    1024
+  ],
+  "batch_limit": 2048,
+  "refinement_batch_panels": 4,
+  "timing_repetitions": 3,
+  "selection_rule": {
+    "coarse_order": 2,
+    "risk_fraction": 0.01,
+    "width_threshold_eV": 0.008,
+    "meaning": "heuristic first-order area proxy, not upper bound; no reference current available online"
+  },
+  "contexts": [
+    {
+      "id": "N-broad",
+      "kind": "double",
+      "barrier_nm": 2.5,
+      "well_nm": 4.6,
+      "bias": 0.11,
+      "temperature": 320
+    },
+    {
+      "id": "N-medium",
+      "kind": "double",
+      "barrier_nm": 5.5,
+      "well_nm": 5.8,
+      "bias": 0.085,
+      "temperature": 175
+    },
+    {
+      "id": "N-narrow",
+      "kind": "double",
+      "barrier_nm": 7.5,
+      "well_nm": 5.1,
+      "bias": 0.055,
+      "temperature": 90
+    },
+    {
+      "id": "N-ultranarrow",
+      "kind": "double",
+      "barrier_nm": 13.5,
+      "well_nm": 5.7,
+      "bias": 0.045,
+      "temperature": 105
+    },
+    {
+      "id": "N-offset",
+      "kind": "double",
+      "barrier_nm": 8.5,
+      "well_nm": 6.4,
+      "well_offset_eV": 0.018,
+      "bias": 0.075,
+      "temperature": 140
+    },
+    {
+      "id": "N-asymmetric",
+      "kind": "double",
+      "barrier_nm": 5.0,
+      "right_barrier_nm": 9.0,
+      "well_nm": 5.4,
+      "bias": 0.065,
+      "temperature": 220
+    },
+    {
+      "id": "N-coupled",
+      "kind": "triple",
+      "barrier_nm": 5.0,
+      "well_nm": 5.6,
+      "second_well_nm": 6.4,
+      "bias": 0.095,
+      "temperature": 160
+    },
+    {
+      "id": "N-doublet",
+      "kind": "triple",
+      "barrier_nm": 7.0,
+      "well_nm": 6.0,
+      "second_well_nm": 6.1,
+      "well_offset_eV": 0.006,
+      "bias": 0.025,
+      "temperature": 85
+    }
+  ],
+  "decision_rules": {
+    "accuracy": "all cases reported, reference failure not counted as candidate success",
+    "references": "independent banded QUADPACK with pole windows; MP50/80 repair if double reference warns; shared guidance disclosed",
+    "baseline": "uniform, full spectral and full pole fixed from phase3",
+    "novelty": "no first-method, certificate or publication claim; independent method implementation with complete cost"
+  }
+}
