@@ -1,0 +1,4 @@
+S-b10/0 reference agreement 1.15e-09 accepted True
+S-b10/1 reference agreement 5.67e-11 accepted True
+S-b12/0 reference agreement 2.41e-09 accepted False
+S-b12/1 reference agreement 9.37e-10 accepted False

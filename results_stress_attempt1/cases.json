@@ -1,0 +1,126 @@
+[
+  {
+    "id": "S-b10",
+    "kind": "double",
+    "barrier_nm": 10.0,
+    "well_nm": 5.1,
+    "bias": 0.04,
+    "temperature": 100,
+    "sample": 0,
+    "height_eV": 0.2797969594702664
+  },
+  {
+    "id": "S-b10",
+    "kind": "double",
+    "barrier_nm": 10.0,
+    "well_nm": 5.1,
+    "bias": 0.04,
+    "temperature": 100,
+    "sample": 1,
+    "height_eV": 0.2793729172166472
+  },
+  {
+    "id": "S-b12",
+    "kind": "double",
+    "barrier_nm": 12.0,
+    "well_nm": 5.3,
+    "bias": 0.04,
+    "temperature": 100,
+    "sample": 0,
+    "height_eV": 0.2797536832118186
+  },
+  {
+    "id": "S-b12",
+    "kind": "double",
+    "barrier_nm": 12.0,
+    "well_nm": 5.3,
+    "bias": 0.04,
+    "temperature": 100,
+    "sample": 1,
+    "height_eV": 0.28019497266573185
+  },
+  {
+    "id": "S-b14",
+    "kind": "double",
+    "barrier_nm": 14.0,
+    "well_nm": 5.5,
+    "bias": 0.04,
+    "temperature": 100,
+    "sample": 0,
+    "height_eV": 0.2789791204153268
+  },
+  {
+    "id": "S-b14",
+    "kind": "double",
+    "barrier_nm": 14.0,
+    "well_nm": 5.5,
+    "bias": 0.04,
+    "temperature": 100,
+    "sample": 1,
+    "height_eV": 0.2811112234380319
+  },
+  {
+    "id": "S-coupled8",
+    "kind": "triple",
+    "barrier_nm": 8.0,
+    "well_nm": 5.8,
+    "second_well_nm": 5.9,
+    "bias": 0.03,
+    "temperature": 77,
+    "sample": 0,
+    "height_eV": 0.28066147422478555
+  },
+  {
+    "id": "S-coupled8",
+    "kind": "triple",
+    "barrier_nm": 8.0,
+    "well_nm": 5.8,
+    "second_well_nm": 5.9,
+    "bias": 0.03,
+    "temperature": 77,
+    "sample": 1,
+    "height_eV": 0.2801181057455103
+  },
+  {
+    "id": "S-offset10",
+    "kind": "double",
+    "barrier_nm": 10.0,
+    "well_nm": 6.1,
+    "well_offset_eV": 0.025,
+    "bias": 0.06,
+    "temperature": 120,
+    "sample": 0,
+    "height_eV": 0.2806492111582268
+  },
+  {
+    "id": "S-offset10",
+    "kind": "double",
+    "barrier_nm": 10.0,
+    "well_nm": 6.1,
+    "well_offset_eV": 0.025,
+    "bias": 0.06,
+    "temperature": 120,
+    "sample": 1,
+    "height_eV": 0.27918270018629543
+  },
+  {
+    "id": "S-threshold",
+    "kind": "double",
+    "barrier_nm": 10.0,
+    "well_nm": 6.0,
+    "bias": 0.135,
+    "temperature": 150,
+    "sample": 0,
+    "height_eV": 0.27949239705036366
+  },
+  {
+    "id": "S-threshold",
+    "kind": "double",
+    "barrier_nm": 10.0,
+    "well_nm": 6.0,
+    "bias": 0.135,
+    "temperature": 150,
+    "sample": 1,
+    "height_eV": 0.2805279219094152
+  }
+]
